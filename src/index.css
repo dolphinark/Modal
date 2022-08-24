@@ -6,6 +6,9 @@
     font-family: sans-serif;
     margin: 3rem;
     background-color: #dfdfdf;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
   h1, h2 {
@@ -21,6 +24,7 @@
     color: white;
     border: 1px solid #800040;
     margin: 0 1rem;
+    user-select: none;
   }
 
 .btn:hover {
